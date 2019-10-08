@@ -1,22 +1,61 @@
 .container {
-    background-color: #c00025;
-    width: 100%;
-    max-width: 550px;
-    border-radius: 15px;
-    border: 2px solid grey;
-    padding-bottom: 25px;
+  background-color: #c00025;
+  width: 100%;
+  max-width: 450px;
+  border-radius: 15px;
+  border: 2px solid grey;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
 }
+
 .display {
-    margin-top: 25px;
-    height: 100px;
-    width: 450px;
-    border-radius: 50px;
-    color: white;
-    background-color: #322c2d;
-    box-shadow: 1px 1px #322c2d;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    padding-right: 8%;
-    font-size: 5.0rem;
-  }
+  margin-top: 25px;
+  height: 100px;
+  width: 350px;
+  border-radius: 50px;
+  color: white;
+  background-color: #322c2d;
+  box-shadow: 1px 1px #322c2d;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right: 8%;
+  font-size: 5rem;
+  margin-left: 25px;
+}
+
+button {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  background-color: #19437a;
+  box-shadow: 5px 5px #322c2d;
+  font-size: 2rem;
+  color: white;
+  margin: 5px;
+}
+.buttons:nth-last-child(2) {
+  width: 172px;
+  border-radius: 50px;
+}
+
+.operator-button {
+  background-color: #247393;
+}
+
+.special-button {
+  background-color: #215d9d;
+}
+.row {
+  display: flex;
+  width: 100%;
+  margin-left: 30px;
+}
+.column {
+  width: 62%;
+}
+.operators {
+  width: 20%;
+}
